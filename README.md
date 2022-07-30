@@ -2,11 +2,13 @@
 <b>Fault:</b> Access denied to uninst000.exe
 
 <b>Solution</b> 
-add the user to have Full Control on the %LOCALAPPDATA%\Programs\Microsoft VS Code folder.
 
-Run the powershell file as Admin, this can replace the user permissions temporarily and resolve the immediate issue
+The user must have Full Control on the %LOCALAPPDATA%\Programs\Microsoft VS Code folder.
+
+To gain access, Run the powershell file as Admin, this can replace the user permissions temporarily and resolve the immediate issue
 
 Once the .ps1 file is ran this will allow the installer/updater to continue by clicking "Try again"
+
 
 <b>Root cause?</b>
 
