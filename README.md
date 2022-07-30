@@ -1,7 +1,8 @@
 # VSC-Error
-Access denied to uninst000.exe
+<b>Fault:</b> Access denied to uninst000.exe
 
-The workaround solution is to add the user to have Full Control on the %LOCALAPPDATA%\Programs\Microsoft VS Code folder.
+<b>Solution</b> 
+add the user to have Full Control on the %LOCALAPPDATA%\Programs\Microsoft VS Code folder.
 
 Run the powershell file as Admin, this can replace the user permissions temporarily and resolve the immediate issue
 
